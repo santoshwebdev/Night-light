@@ -67,16 +67,6 @@ body{
       box-shadow: -22px -200px 300px 81px rgba(245,245,245,1);     
 }
 
-@media only screen and(max-width:344px){
-     body{
-          background-color: green;
-     }
-     .wrapper{
-          width: 100%;
-          background-color: red;
-     }
-}
-
 
 @media only screen and (max-width: 600px) {
      body {
@@ -116,6 +106,48 @@ body{
           border-radius: 50%;
           margin-right: 20px;
           margin-top: 10px;
+     }
+   }
+
+
+@media only screen and (min-width: 350px) {
+     body {
+       background-color: #101113;
+     }
+     .wrapper{
+          width: 100%;
+     }
+     .box-1 .banner-img{
+          width: 100%;
+     }
+     .box-1{
+          width: 100%;
+          
+     }
+     .wrapper img{
+          width: 100%;
+          margin: 0 auto;
+          margin-top: 00px;
+     }
+     .box-1 .cotent img{
+          width: 12%;
+          margin-top: 180px;
+          margin-left: 280px;
+     }
+     .off{
+          border-radius: 50%;
+          width: 12%;
+          margin-top: -40px;
+          margin-left: 10px;
+          margin-bottom: 10px;
+          transition-duration: 0.5s;
+     }
+     .logo{
+          float: right;
+          width: 18%;
+          border-radius: 50%;
+          margin-right: 20px;
+          margin-top: 150px;
      }
    }
 
