@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,500;1,700;1,900&family=Rubik:wght@300;400;500&family=Satisfy&display=swap');
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+body{
+     background-color: #101113;
+     font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+     width: 80%;
+/*   border: 2px solid red;*/
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 100px;
+}
+
+.wrapper .three-box img{
+     border-radius: 10px;
+}
+
+/*Box-1 start here */
+.box-1{
+     width: 40%;
+     height: 500px;
+     transition:img 0.5s;  
+     margin: 0 auto;
+}
+
+.box-1 img{
+     width: 100%;
+     height: 100%;
+     transition-duration: 0.5s;
+}
+
+.box-1 :hover{
+    
+     cursor: pointer;
+}
+
+.box-1 .cotent{
+     transform: translateY(-450px);
+     color: transparent;
+     display: block;
+     padding-left: 30px;
+     padding-right: 30px;
+     font-weight: 300;
+}
+
+.cotent img{
+     width: 8%;
+     display: block;
+     margin: 0 auto;
+     margin-top: 255px;
+     margin-left: 420px;
+     display: block;
+     font-size: 1rem;
+     animation: light 0.5s linear infinite;
+     
+}
+
+.box-1 .cotent:hover{
+     -webkit-box-shadow: -22px -200px 300px 81px rgba(245,245,245,1);
+     -moz-box-shadow: -22px -200px 300px 81px rgba(245,245,245,1);
+      box-shadow: -22px -200px 300px 81px rgba(245,245,245,1);     
+}
+
+@media only screen and(max-width:344px){
+     body{
+          background-color: green;
+     }
+     .wrapper{
+          width: 100%;
+          background-color: red;
+     }
+}
+
+
+@media only screen and (max-width: 600px) {
+     body {
+       background-color: #101113;
+     }
+     .wrapper{
+          width: 100%;
+     }
+     .box-1 .banner-img{
+          width: 100%;
+     }
+     .box-1{
+          width: 100%;
+          
+     }
+     .wrapper img{
+          width: 100%;
+          margin: 0 auto;
+          margin-top: 00px;
+     }
+     .box-1 .cotent img{
+          width: 12%;
+          margin-top: 180px;
+          margin-left: 255px;
+     }
+     .off{
+          border-radius: 50%;
+          width: 12%;
+          margin-top: -40px;
+          margin-left: 10px;
+          margin-bottom: 10px;
+          transition-duration: 0.5s;
+     }
+     .logo{
+          float: right;
+          width: 18%;
+          border-radius: 50%;
+          margin-right: 20px;
+          margin-top: 10px;
+     }
+   }
+
